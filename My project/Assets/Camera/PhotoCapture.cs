@@ -24,10 +24,10 @@ public class PhotoCapture : MonoBehaviour {
     }
 
     private void Update() {
-        if (Input.GetMouseButtonDown(0)) {
+        if (Input.GetKeyDown("f")) {
             if (!viewingPhoto) {
-               StartCoroutine(CapturePhoto()); 
-               StartCoroutine(CameraFlashEffect());
+               StartCoroutine(CapturePhoto());
+               cameraAudio.Play();
             }
             
             else {
@@ -35,13 +35,6 @@ public class PhotoCapture : MonoBehaviour {
             }
 
         }
-    }
-
-    IEnumerator CameraFlashEffect() {
-        cameraAudio.Play();
-        cameraFlash.SetActive(true);
-        yield return new WaitForSeconds(flashTime);
-        cameraFlash.SetActive(false);
     }
 
     IEnumerator CapturePhoto() {
