@@ -8,7 +8,7 @@ using TMPro;
 
 public class itemcollector : MonoBehaviour
 {
-	  int coins = 0;
+	  int coins = 5;
 
 	  [SerializeField] TextMeshProUGUI coinsText;
 
@@ -17,8 +17,8 @@ public class itemcollector : MonoBehaviour
 	  if (other.gameObject.CompareTag("Coin"))
 	  {
 		  Destroy(other.gameObject);
-		  coins++;
-		  coinsText.text = "Coins: " + coins;
+		  coins--;
+		  coinsText.text = "Coins Left: " + coins;
 	  }
   }
 }
