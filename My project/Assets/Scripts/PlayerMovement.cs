@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
         if (grounded)
             rb.drag = groundDrag;
         else
-            rb.drag = 0;
+            rb.drag = 3;
     }
 
     private void FixedUpdate()
