@@ -1554,7 +1554,7 @@ MonoBehaviour:
   photoFrame: {fileID: 1741276838}
   cameraFrame: {fileID: 490073608}
   cameraAudio: {fileID: 2144745790}
-  book: {fileID: 0}
+  book: {fileID: 708318419}
 --- !u!114 &713509548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1651,7 +1651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraToggle: {fileID: 1754477014}
-  bookToggle: {fileID: 0}
+  bookToggle: {fileID: 708318417}
   movementToggle: {fileID: 1096095096}
 --- !u!1 &751091671
 GameObject:
