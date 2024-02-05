@@ -4,17 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class PhotoCapture : MonoBehaviour {
-    [Header("Photo Taker")]
     [SerializeField] private Image photoDisplayArea;
     [SerializeField] private GameObject photoFrame;
     [SerializeField] private GameObject cameraFrame;
-
-    [Header("Flash Effect")]
-    [SerializeField] private GameObject cameraFlash;
-    [SerializeField] private float flashTime;
-
-    [Header("Camera Audio")]
     [SerializeField] private AudioSource cameraAudio;
+    [SerializeField] private Book book;
 
     private Texture2D screenCapture;
     private bool viewingPhoto;
@@ -54,6 +48,7 @@ public class PhotoCapture : MonoBehaviour {
         photoDisplayArea.sprite = photoSprite;
 
         photoFrame.SetActive(true);
+        book.UpdateBookPages(photoSprite);
     }
 
     void RemovePhoto() {
