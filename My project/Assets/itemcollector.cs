@@ -8,7 +8,7 @@ public class itemcollector : MonoBehaviour
 {
 	  int coins = 0;
 
-	  [SerializeField] TextMeshProUGUI coinsText;
+	  [SerializeField] Text coinsText;
 
   private void OnTriggerEnter(Collider other)
   {
