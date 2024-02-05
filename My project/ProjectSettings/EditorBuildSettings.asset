@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/DesertScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/BeachScene.unity
+    guid: e2c67192bb583da4ca115e10b9eaa6a0
   m_configObjects: {}
