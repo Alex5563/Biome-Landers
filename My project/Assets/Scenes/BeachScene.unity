@@ -689,7 +689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c8a65ab17b5bff45b040642c2d22dae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsText: {fileID: 0}
+  coinsText: {fileID: 1198263316}
 --- !u!1 &470975813
 GameObject:
   m_ObjectHideFlags: 0
@@ -1164,7 +1164,7 @@ Transform:
   m_GameObject: {fileID: 665932871}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -42.3, y: 7.931, z: 35.6}
+  m_LocalPosition: {x: -42.3, y: 6.672, z: 35.6}
   m_LocalScale: {x: 1, y: 1, z: 0.08}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1694,7 +1694,7 @@ Transform:
   m_GameObject: {fileID: 888624591}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 130, y: 7.931, z: -31.06}
+  m_LocalPosition: {x: 130, y: 6.509, z: -31.06}
   m_LocalScale: {x: 1, y: 1, z: 0.08}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1815,7 +1815,7 @@ Transform:
   m_GameObject: {fileID: 951804872}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 308.9, y: 7.931, z: -127.2}
+  m_LocalPosition: {x: 308.9, y: 5.63, z: -127.2}
   m_LocalScale: {x: 1, y: 1, z: 0.08}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2380,7 +2380,7 @@ Transform:
   m_GameObject: {fileID: 1261155410}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.471512, y: -666, z: -31.06}
+  m_LocalPosition: {x: -13.471512, y: 8, z: -31.06}
   m_LocalScale: {x: 1, y: 1, z: 0.08}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3267,7 +3267,7 @@ Transform:
   m_GameObject: {fileID: 1874593832}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 308.9, y: 7.931, z: 35.6}
+  m_LocalPosition: {x: 308.9, y: 9.77, z: 35.6}
   m_LocalScale: {x: 1, y: 1, z: 0.08}
   m_ConstrainProportionsScale: 0
   m_Children: []

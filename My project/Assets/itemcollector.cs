@@ -1,14 +1,16 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 
 public class itemcollector : MonoBehaviour
 {
 	  int coins = 0;
 
-	  [SerializeField] Text coinsText;
+	  [SerializeField] TextMeshProUGUI coinsText;
 
   private void OnTriggerEnter(Collider other)
   {

@@ -14,14 +14,14 @@ public class AImovementScript : MonoBehaviour
 
     Rigidbody rb;
     Animator animator;
-    // Start is called before the first frame update
+    
     void Start()
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
         if(isWandering == false)
@@ -51,8 +51,8 @@ public class AImovementScript : MonoBehaviour
     IEnumerator Wander()
     {
         int rotationTime = Random.Range(1, 3);
-        int rotationWait = Random.Range(1, 1);
-        int rotateDirection = Random.Range(1, 2);
+        int rotateWait = Random.Range(1, 1);
+        int rotateDirection = Random.Range(1, 3);
         int walkWait = Random.Range(1, 3);
         int walkTime = Random.Range(1, 3);
 
@@ -66,7 +66,7 @@ public class AImovementScript : MonoBehaviour
 
         isWalking = false;
 
-        yield return new WaitForSeconds(rotationWait);
+        yield return new WaitForSeconds(rotateWait);
 
         if (rotateDirection == 1)
         {
@@ -74,7 +74,7 @@ public class AImovementScript : MonoBehaviour
             yield return new WaitForSeconds(rotationTime);
             isRotatingLeft = false;
         }
-            if (rotateDirection == 1)
+            if (rotateDirection == 2)
         {
             isRotatingRight = true;
             yield return new WaitForSeconds(rotationTime);
