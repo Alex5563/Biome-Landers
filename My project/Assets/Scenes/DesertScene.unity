@@ -1390,6 +1390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c8a65ab17b5bff45b040642c2d22dae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  teleporter: {fileID: 1105964389}
   coinsText: {fileID: 1590151666}
 --- !u!114 &419993930
 MonoBehaviour:
@@ -3618,12 +3619,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1105964390}
   m_Layer: 0
-  m_Name: Portal
+  m_Name: Teleporter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1105964390
 Transform:
   m_ObjectHideFlags: 0
