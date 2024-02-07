@@ -430,18 +430,18 @@ public class Book : MonoBehaviour {
 
     private int currentPageIndex = 0;
 
-    public void UpdateBookPages(Sprite newSprite)
+    public void UpdateBookPages(Texture2D newTexture) {
+    if (currentPageIndex < bookPages.Length)
     {
-        if (currentPageIndex < bookPages.Length)
-        {
-            bookPages[currentPageIndex] = newSprite;
-            UpdateSprites();
-            currentPageIndex++;
-        }
+        Sprite newSprite = Sprite.Create(newTexture, new Rect(0, 0, newTexture.width, newTexture.height), Vector2.one * 0.5f);
+        bookPages[currentPageIndex] = newSprite;
+        UpdateSprites();
+        currentPageIndex++;
+    }
 
-        if (currentPageIndex >= bookPages.Length)
-        {
-            currentPageIndex = 0;
-        }
+    if (currentPageIndex >= bookPages.Length)
+    {
+        currentPageIndex = 0;
+    }
     }
 }
