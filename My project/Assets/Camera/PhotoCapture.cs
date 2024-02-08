@@ -61,7 +61,6 @@ public class PhotoCapture : MonoBehaviour {
         byte[] bytes = texture.EncodeToPNG();
         string filePath = Application.persistentDataPath + "/captured_photo.png";
         File.WriteAllBytes(filePath, bytes);
-        Debug.Log("Photo saved as: " + filePath);
         return filePath;
     }
 
