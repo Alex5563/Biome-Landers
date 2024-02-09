@@ -22,7 +22,7 @@ public class itemcollector : MonoBehaviour
 	  }
 	  if (coins == 0)
 	  {
-		coinsText.text = "Go to the Middle for the Next World";
+		coinsText.text = "Portal has spawned in the middle";
 		teleporter.SetActive(true);
 	  }
   }
