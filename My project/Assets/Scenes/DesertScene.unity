@@ -1753,7 +1753,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleporter: {fileID: 1105964389}
-  coinsText: {fileID: 0}
+  coinsText: {fileID: 394057429}
 --- !u!114 &419993930
 MonoBehaviour:
   m_ObjectHideFlags: 0
