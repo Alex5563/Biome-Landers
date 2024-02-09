@@ -5,6 +5,7 @@ using UnityEngine;
 public class Toggle : MonoBehaviour {
     public GameObject cameraToggle;
     public GameObject bookToggle;
+    public GameObject coinToggle;
     public PlayerCam movementToggle;
 
     void Update() {
@@ -13,6 +14,10 @@ public class Toggle : MonoBehaviour {
                 cameraToggle.SetActive(false);
             else
                 cameraToggle.SetActive(true);
+       }
+
+       if (Input.GetKeyDown("p")) {
+            coinToggle.SetActive(false);
        }
 
         if (Input.GetKeyDown("i")) {
