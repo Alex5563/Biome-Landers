@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TundraScene.unity
     guid: 69d3e2d9da4dd3e4992ffc5ea2ddeda1
+  - enabled: 1
+    path: Assets/Scenes/THE END.unity
+    guid: 4e37a2addc016df42a8b1454949182d0
   m_configObjects: {}
