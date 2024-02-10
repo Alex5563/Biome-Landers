@@ -3,18 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PauseScript : MonoBehaviour {
+public class PauseScrapbook : MonoBehaviour {
     public GameObject menuToggle;
-    public GameObject coinToggle;
-    public PlayerCam moveCam;
-    public PlayerMovement movementToggle;
+    public GameObject scrollToggle;
 
     void Update() {
         if (Input.GetKeyDown("p")) {
             menuToggle.SetActive(true);
-            coinToggle.SetActive(false);
-            moveCam.enabled = false;
-            movementToggle.enabled = false;
+            scrollToggle.SetActive(false);
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
@@ -22,9 +18,7 @@ public class PauseScript : MonoBehaviour {
 
     public void Resume() {
         menuToggle.SetActive(false);
-        coinToggle.SetActive(true);
-        moveCam.enabled = true;
-        movementToggle.enabled = true;
+        scrollToggle.SetActive(true);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }

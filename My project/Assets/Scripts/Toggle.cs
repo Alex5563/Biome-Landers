@@ -6,7 +6,8 @@ public class Toggle : MonoBehaviour {
     public GameObject cameraToggle;
     public GameObject bookToggle;
     public GameObject coinToggle;
-    public PlayerCam movementToggle;
+    public PlayerCam moveCam;
+    public PlayerMovement movementToggle;
 
     void Update() {
        if (Input.GetKeyDown("c")) {
@@ -16,13 +17,10 @@ public class Toggle : MonoBehaviour {
                 cameraToggle.SetActive(true);
        }
 
-       if (Input.GetKeyDown("p")) {
-            coinToggle.SetActive(false);
-       }
-
         if (Input.GetKeyDown("i")) {
             if (bookToggle.activeInHierarchy == true) {
             bookToggle.SetActive(false);
+            moveCam.enabled = true;
             movementToggle.enabled = true;
             cameraToggle.SetActive(true);
             Cursor.lockState = CursorLockMode.Locked;
@@ -30,6 +28,7 @@ public class Toggle : MonoBehaviour {
         }
         else {
             bookToggle.SetActive(true);
+            moveCam.enabled = false;
             movementToggle.enabled = false;
             cameraToggle.SetActive(false);
             Cursor.lockState = CursorLockMode.None;
