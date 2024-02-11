@@ -7,7 +7,6 @@ using TMPro;
 
 public class itemcollector : MonoBehaviour
 {
-	public GameObject teleporter;
 	  int coins = 5;
 
 	  [SerializeField] TextMeshProUGUI coinsText;
@@ -19,11 +18,6 @@ public class itemcollector : MonoBehaviour
 		  Destroy(other.gameObject);
 		  coins--;
 		  coinsText.text = "Coins Left: " + coins;
-	  }
-	  if (coins == 0)
-	  {
-		coinsText.text = "Portal has spawned in the middle";
-		teleporter.SetActive(true);
 	  }
   }
 }
