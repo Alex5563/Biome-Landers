@@ -1648,7 +1648,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c8a65ab17b5bff45b040642c2d22dae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleporter: {fileID: 1726045863}
   coinsText: {fileID: 170791858}
   coinSound: {fileID: 2144351531}
 --- !u!114 &419993930
@@ -5474,6 +5473,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvas: {fileID: 1282032922}
   BookPanel: {fileID: 1326457827}
+  teleporter: {fileID: 1726045863}
   background: {fileID: 21300000, guid: 3c47abcf3fb3d12408efe3073b2e379f, type: 3}
   bookPages:
   - {fileID: 21300000, guid: b1bac3987b1ad064a80f72496ee46425, type: 3}
@@ -5484,6 +5484,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 86cccff4f962a034c841b8a741b9d50b, type: 3}
   - {fileID: 21300000, guid: 9ad9c7be1dcdd6d45ab6e643fc600a88, type: 3}
   - {fileID: 21300000, guid: a8371807677c9624f95debc13138fe33, type: 3}
+  - {fileID: 21300000, guid: af6144c96371dee4fbee649f319b7bac, type: 3}
+  - {fileID: 21300000, guid: a378516a56349b24399e0cce9138b1b3, type: 3}
   interactable: 1
   enableShadowEffect: 1
   currentPage: 0

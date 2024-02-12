@@ -12,6 +12,7 @@ public class Book : MonoBehaviour {
     public Canvas canvas;
     [SerializeField]
     RectTransform BookPanel;
+    public GameObject teleporter;
     public Sprite background;
     public Sprite[] bookPages;
     public bool interactable=true;
@@ -439,9 +440,9 @@ public class Book : MonoBehaviour {
         currentPageIndex++;
     }
 
-    if (currentPageIndex >= bookPages.Length)
+    if (currentPageIndex == bookPages.Length)
     {
-        currentPageIndex = 0;
+        teleporter.SetActive(true);
     }
     }
 }
