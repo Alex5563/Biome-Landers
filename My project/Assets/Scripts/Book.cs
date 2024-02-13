@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.Events;
+
 public enum FlipMode
 {
     RightToLeft,
@@ -13,6 +14,7 @@ public class Book : MonoBehaviour {
     [SerializeField]
     RectTransform BookPanel;
     public GameObject teleporter;
+    public GameObject portalText;
     public Sprite background;
     public Sprite[] bookPages;
     public bool interactable=true;
@@ -443,6 +445,7 @@ public class Book : MonoBehaviour {
     if (currentPageIndex == bookPages.Length)
     {
         teleporter.SetActive(true);
+        portalText.SetActive(true);
     }
     }
 }
