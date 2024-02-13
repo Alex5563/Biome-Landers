@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadSceneAsync("BeachScene");
+        SceneManager.LoadSceneAsync("Opening Dialogue");
     }
     public void quitgame()
     {
