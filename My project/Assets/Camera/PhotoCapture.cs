@@ -10,10 +10,10 @@ public class PhotoCapture : MonoBehaviour {
     [SerializeField] private GameObject cameraFrame;
     [SerializeField] private AudioSource cameraAudio;
     [SerializeField] private Book book;
+    [SerializeField] private GameObject portalText;
 
     private Texture2D screenCapture;
     private bool viewingPhoto;
-
 
     private void Start() {
         screenCapture = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
@@ -35,6 +35,11 @@ public class PhotoCapture : MonoBehaviour {
     IEnumerator CapturePhoto() {
         cameraFrame.SetActive(false);
         viewingPhoto = true;
+
+        if (portalText.activeInHierarchy == true) {
+            portalText.SetActive(false);
+        }
+
         yield return new WaitForEndOfFrame();
 
         Rect regionToRead = new Rect(0, 0, Screen.width, Screen.height);
