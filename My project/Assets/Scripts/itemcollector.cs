@@ -7,7 +7,7 @@ using TMPro;
 
 public class itemcollector : MonoBehaviour
 {
-	  int coins = 5;
+	  int coins = 1;
 
 	  [SerializeField] TextMeshProUGUI coinsText;
 	  [SerializeField] AudioSource coinSound;
