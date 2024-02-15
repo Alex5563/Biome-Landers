@@ -5,28 +5,27 @@ using UnityEngine;
 public class CupScipt : MonoBehaviour
 {
 
-    public static int secretcoins;
+    int trophypicker = itemcollector.coins;
     public GameObject bronzetrophy;
     public GameObject silvertrophy;
     public GameObject goldtrophy;
 
     [SerializeField] AudioSource coinSound;
 
-    void Start()
+    void Update()
     {
-        if (secretcoins == 4) {
+        if (trophypicker == 4) {
             goldtrophy.SetActive(true);
         }
-        else if (secretcoins == 3) {
+        else if (trophypicker == 3) {
             silvertrophy.SetActive(true);
         }
-        else if (secretcoins == 2) {
+        else if (trophypicker == 2) {
             silvertrophy.SetActive(true);
         }
         else {
-            bronzetrophy.SetActive(true);
+             bronzetrophy.SetActive(true);
         }
-
     }
       private void OnTriggerEnter(Collider other)
   {
