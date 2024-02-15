@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Coin
+  - LevelExit
+  - trophy
   layers:
   - Default
   - TransparentFX
