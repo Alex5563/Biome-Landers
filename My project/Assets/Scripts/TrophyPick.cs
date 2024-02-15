@@ -17,7 +17,10 @@ public class CupScipt : MonoBehaviour
         if (secretcoins == 4) {
             goldtrophy.SetActive(true);
         }
-        else if (secretcoins == 2 || secretcoins == 3) {
+        else if (secretcoins == 3) {
+            silvertrophy.SetActive(true);
+        }
+        else if (secretcoins == 2) {
             silvertrophy.SetActive(true);
         }
         else {
