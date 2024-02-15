@@ -312,17 +312,18 @@ MonoBehaviour:
   lines:
   - Welcome Brave Zoologist! You are about to embark on a journey to the Landing
     Archipelago!
-  - The Landing Archipelago is a huge chain of islands with countless drastically
-    different ecosystems!
+  - The Landing Archipelago is a huge chain of islands with countless different ecosystems!
   - 'Today, you will be embarking on a journey through 4 islands: the beach, desert,
     jungle, and tundra!'
-  - 'As you traverse these islands, make sure to document at least 10 pictures, Press
-    (C) to toggle camera. Press (F) to capture image. '
+  - 'As you go through these islands, make sure to document at least 10 pictures,
+    Press (C) to toggle camera. Press (F) to capture image. '
   - 'Once HQ recieves 10 pictures in your scrapbook, a portal will open to the next
     biome. Press (i) to toggle scrapbook. To flip pages, drag the bottom right corner
     to the left while holding left click. '
   - There are also secret optional coins that can be collected, which will benefit
     us greatly in our research of the islands.
+  - You will be rewarded based on your collection of coins and meeting the requirement
+    of 10 pictures on each island.
   - Well... What are you waiting for? Lets go!
   textSpeed: 0.1
 --- !u!114 &247577595
