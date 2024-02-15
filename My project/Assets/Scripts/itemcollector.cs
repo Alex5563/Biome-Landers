@@ -12,10 +12,6 @@ public class itemcollector : MonoBehaviour
 	  [SerializeField] TextMeshProUGUI coinsText;
 	  [SerializeField] AudioSource coinSound;
 
-	  void Start(){
-		coinsText.text = "Secret Coins: " + coins + "/4";
- 	 }
-
   private void OnTriggerEnter(Collider other)
   {
 	  if (other.gameObject.CompareTag("Coin"))
