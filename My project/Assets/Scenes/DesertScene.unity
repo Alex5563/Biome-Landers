@@ -3829,8 +3829,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee850dc932ea13345a87b406a6746113, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensX: 400
-  sensY: 400
+  sensX: 250
+  sensY: 250
   orientation: {fileID: 1949420038}
 --- !u!81 &1096095097
 AudioListener:
@@ -4128,7 +4128,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b01b49691ec35ee48b96f2ba7e1e3e8a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.75
+  m_Volume: 0.496
   m_Pitch: 1
   Loop: 1
   Mute: 0
