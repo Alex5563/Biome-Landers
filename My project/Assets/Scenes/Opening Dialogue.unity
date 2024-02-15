@@ -316,7 +316,7 @@ MonoBehaviour:
   - 'Today, you will be embarking on a journey through 4 islands: the beach, desert,
     jungle, and tundra!'
   - 'As you go through these islands, make sure to document at least 10 pictures,
-    Press (C) to toggle camera. Press (F) to capture image. '
+    Press (C) to toggle camera. Press (F) to capture and close the image. '
   - 'Once HQ recieves 10 pictures in your scrapbook, a portal will open to the next
     biome. Press (i) to toggle scrapbook. To flip pages, drag the bottom right corner
     to the left while holding left click. '
@@ -324,6 +324,8 @@ MonoBehaviour:
     us greatly in our research of the islands.
   - You will be rewarded based on your collection of coins and meeting the requirement
     of 10 pictures on each island.
+  - Finally, to pause or exist, just press (P) and you will be able to teleport back
+    to the menu screen.
   - Well... What are you waiting for? Lets go!
   textSpeed: 0.1
 --- !u!114 &247577595
