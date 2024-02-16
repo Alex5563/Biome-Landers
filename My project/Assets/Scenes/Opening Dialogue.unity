@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.116781816, g: 0.42537117, b: 0.7317808, a: 1}
+  m_IndirectSpecularColor: {r: 0.11613611, g: 0.42406112, b: 0.73004746, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -324,7 +324,7 @@ MonoBehaviour:
     us greatly in our research of the islands.
   - You will be rewarded based on your collection of coins and meeting the requirement
     of 10 pictures on each island.
-  - Finally, to pause or exist, just press (P) and you will be able to teleport back
+  - Finally, to pause or exit, just press (P) and you will be able to teleport back
     to the menu screen.
   - Well... What are you waiting for? Lets go!
   textSpeed: 0.1

@@ -27,6 +27,6 @@ EditorBuildSettings:
     path: Assets/Scenes/TrophyRoom.unity
     guid: 3fd4a64bed172f94ebd5cf5ec9cb0229
   - enabled: 1
-    path: Assets/Scenes/Scrapbook.unity
+    path: Assets/Scenes/THE END.unity
     guid: 4e37a2addc016df42a8b1454949182d0
   m_configObjects: {}
