@@ -11,11 +11,11 @@ public class MainMenu : MonoBehaviour
     }
     public void quitgame()
     {
-        Application.Quit();
+        SceneManager.LoadSceneAsync("Main menu");
     }
     public void openscrapbook()
     {
-        SceneManager.LoadSceneAsync("THE END");
+        SceneManager.LoadSceneAsync("Scrapbook");
     }
  
 }

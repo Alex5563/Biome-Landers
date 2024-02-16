@@ -34,6 +34,6 @@ public class PauseScript : MonoBehaviour {
     }
 
     public void QuitGame() {
-        Application.Quit();
+        SceneManager.LoadSceneAsync("Main menu");
     }
 }
